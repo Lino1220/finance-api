@@ -1,0 +1,34 @@
+{
+  "name": "finance-api",
+  "version": "1.0.0",
+  "description": "API REST de gestão financeira pessoal com cadastro de receitas, despesas, categorias, relatórios mensais e autenticação JWT.",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
+  },
+  "keywords": [
+    "api",
+    "finance",
+    "financas",
+    "gestao-financeira",
+    "receitas",
+    "despesas",
+    "postgresql",
+    "express",
+    "jwt"
+  ],
+  "author": "Flinotrix",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "pg": "^8.23.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
